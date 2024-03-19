@@ -23,6 +23,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    height: auto;
     z-index: 1000;
     font-family: "Tourney", sans-serif;
     font-optical-sizing: auto;
