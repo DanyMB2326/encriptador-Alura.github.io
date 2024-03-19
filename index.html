@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <h1>Encriptador</h1>
+        <p class="descripcion">¡Bienvenido a nuestra herramienta de encriptación y desencriptación de mensajes! Con esta aplicación, puedes proteger la privacidad de tus mensajes utilizando un cifrado único. Simplemente escribe tu mensaje en el área designada, y nuestra herramienta lo encriptará para ti. Además, puedes desencriptar mensajes previamente cifrados para descifrar su contenido original. ¡Explora la magia de la encriptación de mensajes con nuestra práctica y segura herramienta en línea!</p>
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h4 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptador" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptador" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="30" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Encriptador - Daniela MB - 2024</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
